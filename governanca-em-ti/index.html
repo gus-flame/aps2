@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Gestão de Projetos</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="../img/icon.png" type="image/x-icon">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <script>
+        if (localStorage.getItem('tema') === 'claro') {
+            document.body.classList.add('tema-claro');
+        }
+    </script>
+    <header class="topo">
+        <div class="container-topo">
+            <a href="../index.html" class="link-logo" aria-label="Sistemas de Informação Inicio">
+                <img src="../img/logo-si.png" alt="Logo de Sistemas de Informação" class="logo-principal">
+            </a>
+            <nav aria-label="Navegação Principal">
+                <a href="../index.html">Inicio</a>
+                <button id="btn-tema" type="button">Tema</button>
+            </nav>
+        </div>
+    </header>
+
+    <main class="conteudo">
+        <section class="hero-curso">
+            <h1 class="titulo-onda">Gestão de Projetos</h1>
+            <p class="tema-claro">Feito por: Gustavo e Matheus</p>
+        </section>
+
+        <!-- 1º Resumo da Matéria -->
+        <section class="secao-transparente">
+            <h2 class="inverter-titulo titulo-destaque">Resumo da Matéria</h2>
+            <p class="inverter-texto texto-justificado">
+                A disciplina de Gestão de Projetos visa desenvolver conhecimentos e habilidades cruciais para planejar, executar, monitorar e encerrar projetos no contexto de Sistemas de Informação. O foco principal é aplicar métodos, ferramentas e metodologias, sejam elas tradicionais ou ágeis, para alcançar os resultados organizacionais. Durante o curso, os alunos aprendem a gerenciar aspectos como escopo, tempo, custos, riscos e recursos humanos, além de atuar ativamente na análise de viabilidade financeira e integração de soluções tecnológicas.
+            </p>
+        </section>
+
+        <!-- 2º Ementa (Box Escura) -->
+        <section class="box-escura">
+            <h2>Ementa</h2>
+            <div class="grid-ementa">
+                <div>
+                    <ul class="lista-ementa">
+                        <li>Fundamentos de gerência de projetos e ciclo de vida.</li>
+                        <li>O papel do gerente de projetos e os stakeholders envolvidos.</li>
+                        <li>Entidades relacionadas e aspectos humanos no gerenciamento.</li>
+                        <li>Processos de gerenciamento e gestão de integração.</li>
+                        <li>Gestão de escopo, tempo, recursos humanos e custos.</li>
+                    </ul>
+                </div>
+                <div>
+                    <ul class="lista-ementa">
+                        <li>Gestão de riscos, comunicações, qualidade e aquisições.</li>
+                        <li>Ferramentas de planejamento, controle e monitoramento.</li>
+                        <li>Sistemas para gerenciamento e aplicativos para gestores.</li>
+                        <li>Metodologias aplicadas (PMBOK, SCRUM, entre outras).</li>
+                        <li>A Gestão de projetos Ágeis.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- 3º Vídeos Didáticos -->
+        <section class="secao-transparente mt-40">
+            <h2 class="inverter-titulo titulo-destaque">Vídeos Didáticos</h2>
+            <div class="videos-container">
+                <div class="video-card">
+                    <iframe width="100%" height="250" src="https://www.youtube.com/embed/HlmiVz0SqNQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    <div class="video-titulo-container">
+                        <h3>O que é Gestão de Projetos?</h3>
+                    </div>
+                </div>
+                <div class="video-card">
+                    <iframe width="100%" height="250" src="https://www.youtube.com/embed/qG8-Wsql1y4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    <div class="video-titulo-container">
+                        <h3>Dica Rápida de Gerenciamento</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 4º Referências ABNT -->
+        <section class="referencias-container">
+            <h2 class="titulo-destaque">Referências</h2>
+            
+            <h3 class="subtitulo-referencia">Bibliografia Básica</h3>
+            <div class="referencia-item basica">
+                <p>CAVALCANTI, Francisco Rodrigo P. <strong>Fundamentos de gestão de projetos</strong>. 1. ed., Rio de Janeiro, Atlas, 2016. (Digital).</p>
+                <p>GIDO, Jack; CLEMENTS, Jim; BAKER, Rose. <strong>Gestão de projetos</strong>. 3. ed. Porto Alegre: +A Educação - Cengage Learning Brasil, 2024. E-book.</p>
+                <p>MENEZES, Luís César de M. <strong>Gestão de Projetos</strong>, 4ª edição. Rio de Janeiro: Atlas, 2018. E-book.</p>
+            </div>
+
+            <h3 class="subtitulo-referencia complementar">Bibliografia Complementar</h3>
+            <div class="referencia-item complementar">
+                <p>Gerardi, Bart. <strong>Gerenciamento de projetos sem crise: como evitar problemas previsíveis para o sucesso do projeto</strong>. São Paulo: Novatec, 2012.</p>
+                <p>Schirigatti, Jackson Luis. <strong>Engenhando e gerenciando projetos de softwares com qualidade</strong>. Novas Edições Acadêmicas, 2020.</p>
+                <p>Jugend, Daniel. <strong>Gestão de projetos: teoria, prática e tendências</strong>. Rio de Janeiro: Elsevier, 2014.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="rodape">
+        <p>&copy; 2026 Curso de Sistemas de Informação - Isulpar</p>
+    </footer>
+</body>
+</html>
